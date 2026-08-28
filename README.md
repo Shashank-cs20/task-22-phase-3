@@ -30,13 +30,13 @@ echo ""
 echo "=== $PASS passed, $FAIL failed ==="
 [ $FAIL -eq 0 ] || exit 1
 
-# docs/security-plan.md
+ docs/security-plan.md
 
-## Stage A — The bar
+ Stage A — The bar
 A compromised credential or dependency has a small,
 contained blast radius.
 
-## Blast radius
+ Blast radius
 
 | Stage | What changes                  | Blast radius                        | Rollback                           |
 |-------|-------------------------------|-------------------------------------|------------------------------------|
